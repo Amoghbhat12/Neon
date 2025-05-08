@@ -28,3 +28,5 @@ This project demonstrates a collection of basic image processing algorithms impl
 - C++ compiler (GCC or Clang)
 - CMake
 - OpenCV (for I/O)
+## Instruction to run neon code
+- g++ -O3 -march=armv8-a+simd -std=c++17 -pg -g neon_opt.cpp -o neontimetest
